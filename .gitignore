@@ -1,0 +1,108 @@
+############################
+# ASP.NET / .NET
+############################
+
+# Build results
+bin/
+obj/
+out/
+publish/
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider / VS Code
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+
+# Dotnet
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# IIS Express
+iisexpress/
+*.vspscc
+*.vssscc
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# Test Results
+TestResults/
+*.trx
+
+# Publish settings (often contain secrets)
+*.publishsettings
+
+# Azure
+*.azurePubxml
+
+############################
+# Secrets / App Settings
+############################
+
+# Optional: ignore local secrets
+appsettings.Development.json
+secrets.json
+
+############################
+# Terraform
+############################
+
+# Terraform working directory
+.terraform/
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Exclude all .tfvars files (may contain secrets)
+*.tfvars
+*.tfvars.json
+
+# Ignore override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform lock file (optional – many teams keep it)
+#.terraform.lock.hcl
+
+############################
+# Misc
+############################
+
+# Environment files
+.env
+.env.*
+
+# Temporary files
+*.tmp
+*.temp
