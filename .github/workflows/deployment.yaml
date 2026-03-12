@@ -27,7 +27,7 @@ jobs:
               with:
                 dotnet-version: 8.0.x
             - name: publish application
-              run: dotnet publish Amazon.csproj -c Release -o publish --no-restore
+              run: dotnet publish Amazon.csproj -c Release -o publish
             - name: deploy to web app
               uses: azure/webapps-deploy@v2
               with:
